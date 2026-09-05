@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sample Web Page</title>
+	<style>
+		:root {
+			color-scheme: light;
+			font-family: Arial, sans-serif;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			color: #1f2937;
+			background: #f3f4f6;
+		}
+
+		header {
+			padding: 1rem 2rem;
+			color: white;
+			background: #2563eb;
+		}
+
+		nav {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			max-width: 1100px;
+			margin: 0 auto;
+		}
+
+		nav a {
+			margin-left: 1rem;
+			color: white;
+			text-decoration: none;
+		}
+
+		main {
+			max-width: 1100px;
+			margin: 0 auto;
+			padding: 5rem 2rem;
+			text-align: center;
+		}
+
+		h1 { font-size: 3rem; margin-bottom: 1rem; }
+		p { line-height: 1.6; }
+
+		.button {
+			display: inline-block;
+			margin-top: 1rem;
+			padding: 0.75rem 1.25rem;
+			color: white;
+			background: #16a34a;
+			border-radius: 0.4rem;
+			text-decoration: none;
+		}
+
+		footer {
+			padding: 1rem;
+			text-align: center;
+			color: #6b7280;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<strong>Bright Ideas</strong>
+			<div>
+				<a href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#contact">Contact</a>
+			</div>
+		</nav>
+	</header>
+
+	<main id="home">
+		<h1>Welcome to Bright Ideas</h1>
+		<p>A simple sample webpage built with semantic HTML and a little CSS.</p>
+		<a class="button" href="#about">Learn More</a>
+
+		<section id="about">
+			<h2>About This Page</h2>
+			<p>This starter page is responsive, accessible, and ready for customization.</p>
+		</section>
+	</main>
+
+	<footer id="contact">
+		<small>&copy; 2025 Bright Ideas</small>
+	</footer>
+</body>
+</html>
